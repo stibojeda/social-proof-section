@@ -121,6 +121,13 @@ main {
 
 /* MEDIA QUERY */
 @media (min-width: 900px) {
+
+  * {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.33vh;
+    /* font-size: 15px; */
+  }
+
   .socialbox {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -128,7 +135,7 @@ main {
     row-gap: 0;
     height: 100vh;
     width: 100vw;
-    padding: 4rem;
+    padding: 4rem 6rem;
   }
 
   .socialbox__title {
@@ -154,8 +161,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 1rem 3rem;
-    width: auto;
+    padding: 1rem 2rem;
+    width: 29rem;
     min-width: 436px;
     column-gap: 3rem;
   }
@@ -177,6 +184,10 @@ main {
 
   .socialbox__stars {
     margin: 0;
+  }
+
+  .socialbox__stars img {
+    width: 1rem;
   }
 
   .socialbox_container_reviews {
